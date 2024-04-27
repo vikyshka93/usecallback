@@ -1,0 +1,1 @@
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
