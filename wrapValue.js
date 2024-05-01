@@ -1,3 +1,1 @@
-console.log(false === '0');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-console.log(1 +  +"2" + "2");
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
