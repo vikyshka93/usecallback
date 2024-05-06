@@ -1,3 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log("1 || 2 = "+(1 || 2));
+const allResults = await Promise.all(items.map(async (item) => {}));
