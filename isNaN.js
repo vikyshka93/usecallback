@@ -1,2 +1,2 @@
-const results = await Promise.all(resultingPromises);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log( "A" - "B" + 2);
+const isTabInView = () => !document.hidden;
