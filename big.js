@@ -1,6 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const merge = Object.assign({}, obj1, obj2);
-const getRandomBoolean = () => Math.random() >= 0.5;
-const repositoryRootPath = path.resolve(__dirname, '..');
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const merge = [...new Set([...a, ...b])];
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
