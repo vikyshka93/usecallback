@@ -1,2 +1,3 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const arrayContains = (arr, element) => arr.includes(element);
+console.log(1 +  "2" + "2");
+const updated = numbers.filter(element => element > 6);
