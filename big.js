@@ -1,3 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
-console.log(1 +  "2" + "2");
-const updated = numbers.filter(element => element > 6);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const result = await makeHttpRequest(url);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
