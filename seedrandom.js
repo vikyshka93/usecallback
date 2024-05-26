@@ -1,2 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const merge = (a, b) => [...a, ...b];
+const fullName = name || 'buddy';
+const maxNumber = arr => Math.max(...arr);
