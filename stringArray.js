@@ -1,1 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const merge = Object.assign({}, obj1, obj2);
