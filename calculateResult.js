@@ -1,2 +1,2 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+[foo, bar] = [bar, foo];
