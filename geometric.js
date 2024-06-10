@@ -1,3 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const results = await Promise.all(resultingPromises);
-const removeDuplicates = (arr) => [...new Set(arr)];
+var pattern = {};
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
