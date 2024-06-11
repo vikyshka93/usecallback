@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const maxNumber = arr => Math.max(...arr);
+const arrayContains = (arr, element) => arr.includes(element);
+const stringReverse = str => str.split("").reverse().join("");
