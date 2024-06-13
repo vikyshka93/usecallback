@@ -1,3 +1,3 @@
-var pattern = {};
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+var c = new Counter(); c.add(); c.add(); c.add();
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
