@@ -1,2 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const stringReverse = str => str.split("").reverse().join("");
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+console.log( "A" - "B" + "2");
+var arr3 = "jones".split('');
