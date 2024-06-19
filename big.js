@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-[foo, bar] = [bar, foo];
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const arrayContains = (arr, element) => arr.includes(element);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
