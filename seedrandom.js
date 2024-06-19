@@ -1,3 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-console.log( "A" - "B" + "2");
-var arr3 = "jones".split('');
+console.log(typeof typeof 1);
+const arrayContains = (arr, element) => arr.includes(element);
+var arr1 = "john".split('');
