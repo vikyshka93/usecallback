@@ -1,3 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const randomBoolean = () => Math.random() >= 0.5;
-const merge = [...new Set([...a, ...b])];
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const flattenedArray = arr => [].concat(...arr);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
