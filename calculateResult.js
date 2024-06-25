@@ -1,3 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const flattenedArray = arr => [].concat(...arr);
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log("0 || 1 = "+(0 || 1));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
