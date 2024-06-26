@@ -1,3 +1,1 @@
-console.log(typeof typeof 1);
-const arrayContains = (arr, element) => arr.includes(element);
-var arr1 = "john".split('');
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
