@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const buildOutputPath = path.join(repositoryRootPath, 'out');
