@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
 const getRandomBoolean = () => Math.random() >= 0.5;
-const goToTop = () => window.scrollTo(0, 0);
+console.log("0 && 1 = "+(0 && 1));
+const randomString = () => Math.random().toString(36).slice(2);
