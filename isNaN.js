@@ -1,3 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-console.log("0 && 1 = "+(0 && 1));
-const randomString = () => Math.random().toString(36).slice(2);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+console.log("1 && 2 = "+(1 && 2));
