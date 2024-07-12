@@ -1,3 +1,3 @@
-var arr2 = arr1.reverse();
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const result = await makeHttpRequest(url);
+var pattern = {};
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
