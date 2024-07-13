@@ -1,3 +1,2 @@
-console.log( "A" - "B" + "2");
-const reversedString = str => str.split('').reverse().join('');
-console.log(1 +  -"1" + "2");
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
