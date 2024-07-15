@@ -1,3 +1,2 @@
-console.log( "A" - "B" + "2");
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-var arr2 = arr1.reverse();
+const merge = (a, b) => a.concat(b);
+const stringReverse = str => str.split("").reverse().join("");
