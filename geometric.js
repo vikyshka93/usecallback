@@ -1,2 +1,3 @@
-const merge = (a, b) => a.concat(b);
-const stringReverse = str => str.split("").reverse().join("");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const result = await makeHttpRequest(url);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
