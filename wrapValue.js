@@ -1,1 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
+const isTabInView = () => !document.hidden;
+const lastElement = arr => arr[arr.length - 1];
+const goToTop = () => window.scrollTo(0, 0);
