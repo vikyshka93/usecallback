@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-const lastElement = arr => arr[arr.length - 1];
-const goToTop = () => window.scrollTo(0, 0);
+console.log(typeof typeof 1);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
