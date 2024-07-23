@@ -1,3 +1,3 @@
-var pattern = {};
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+var arr1 = "john".split('');
+console.log( "A" - "B" + "2");
