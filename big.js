@@ -1,3 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-var arr1 = "john".split('');
-console.log( "A" - "B" + "2");
+const maxNumber = arr => Math.max(...arr);
+const channel = getChannel(computedAppVersion);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
