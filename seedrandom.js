@@ -1,3 +1,2 @@
-const channel = getChannel(computedAppVersion);
-console.log(1 +  -"1" + "2");
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+var c = new Counter(); c.add(); c.add(); c.add();
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
