@@ -1,1 +1,1 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+var DELIM_SIZE = 4;
