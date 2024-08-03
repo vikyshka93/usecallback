@@ -1,3 +1,1 @@
-const maxNumber = arr => Math.max(...arr);
-const channel = getChannel(computedAppVersion);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
