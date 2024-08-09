@@ -1,3 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const isEven = (num) => num % 2 === 0;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const merge = [...new Set(a.concat(b))];
